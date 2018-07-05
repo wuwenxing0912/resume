@@ -186,19 +186,33 @@
             <div class="swiper-button-next"></div>
         </div>
     </section>
-    <section class="message">
-        <h2>留言板</h2>
-        <ol id="messageList"></ol>
-        <form id="postMessage" style="width: 700px; margin: 50px auto;">
-            <label>姓名
-            <input type="text" name="name">
+
+    <div id="formAndMessageList">
+        <form id="myForm" class="basic-grey">
+            <h1>留言板</h1>
+            <label>
+            <span>姓 名 :</span>
+            <input id="name" type="text" name="name"/>
             </label>
-            <label>内容
-            <input type="text" name="content">
+
+            <label>
+            <span>邮 箱 :</span>
+            <input id="email" type="text" name="email"/>
             </label>
-            <input type="submit" value="提交">
+
+            <label>
+            <span>留 言 :</span>
+            <textarea id="message" name="message"></textarea>
+            </label>
+
+            <label>
+            <span>&nbsp;</span>
+            <input type="submit" class="button" value="提交"/>
+            </label>
         </form>
-    </section>
+        <ol id="messageList">
+        </ol>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.2.0/Tween.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.min.js"></script>
