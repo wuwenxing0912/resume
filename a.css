@@ -404,6 +404,10 @@ section.portfolio .swiper-button-next {
     right: auto;
 }
 
+#formAndMessageList {
+    margin-bottom: 30px;
+}
+
 .basic-grey {
     margin-left: auto;
     margin-right: auto;
@@ -482,7 +486,7 @@ section.portfolio .swiper-button-next {
     background: #CF7A7A
 }
 
-ol {
+#messageList {
     padding: 16px 12px 0px 14px;
     background: #F7F7F7;
     max-width: 500px;
@@ -492,7 +496,7 @@ ol {
     list-style: none;
 }
 
-ol>li {
+#messageList>li {
     padding: 16px;
     border-bottom: 1px solid #DDD;
     white-space: normal;
