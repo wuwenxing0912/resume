@@ -111,7 +111,8 @@ ol {
     top: 100%;
     left: 0;
     width: 100%;
-    background: #e06567;
+    /* background: #e06567; */
+    background: #2688C4;
     height: 3px;
     animation: menuSlide 0.3s;
 }
@@ -167,7 +168,8 @@ ol {
 
 .topNavBar .logo .rs {
     margin-right: 4px;
-    color: #E6686A;
+    /* color: #E6686A; */
+    color: #2688C4;
 }
 
 .topNavBar .logo .card {
@@ -195,7 +197,8 @@ ol {
 }
 
 .userCard .welcome {
-    background: #E6686A;
+    /*background-color: #E6686A;*/
+    background: #2688C4;
     color: white;
     display: inline-block;
     padding: 5px 16px;
@@ -208,7 +211,8 @@ ol {
     display: block;
     border: 10px solid transparent;
     widows: 0px;
-    border-left-color: #E6686A;
+    /* border-left-color: #E6686A; */
+    border-left-color: #2688C4;
     border-top-width: 0px;
     position: absolute;
     left: 4px;
@@ -226,7 +230,7 @@ ol {
 }
 
 .userCard .text h1 {
-    margin-top: 21px;
+    margin-top: 15px;
 }
 
 .userCard .text hr {
@@ -253,8 +257,16 @@ ol {
     color: #9da0a7;
 }
 
+.userCard dl>dt>span.age,
+.userCard dl>dt>span.email,
+.userCard dl>dt>span.mobile {
+    display: inline-block;
+    margin-right: 30px;
+}
+
 .userCard>footer.media {
-    background-color: #E6686A;
+    /*background-color: #E6686A;*/
+    background: #2688C4;
     text-align: center;
 }
 
@@ -268,7 +280,8 @@ ol {
 }
 
 .userCard>footer.media>a:hover {
-    background: #CF5D5F;
+    /* background: #CF5D5F; */
+    background: #007ACC;
 }
 
 .userCard svg {
@@ -476,7 +489,8 @@ section.portfolio .swiper-button-next {
 
 .basic-grey .button {
     width: 72%;
-    background: #E27575;
+    /* background: #E27575; */
+    background: #2688C4;
     border: none;
     padding: 10px 25px 10px 25px;
     color: #FFF;
@@ -487,7 +501,8 @@ section.portfolio .swiper-button-next {
 }
 
 .basic-grey .button:hover {
-    background: #E6686A;
+    /* background: #E6686A; */
+    background: #007ACC
 }
 
 #messageList {
