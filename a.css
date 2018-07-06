@@ -241,6 +241,10 @@ ol {
     padding: 50px 50px 30px 50px;
 }
 
+.userCard p {
+    margin-top: 10px;
+}
+
 .userCard dl dt,
 .userCard dl dd {
     float: left;
