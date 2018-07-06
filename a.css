@@ -415,7 +415,6 @@ section.portfolio .swiper-button-next {
     background: white;
     padding: 25px 15px 25px 10px;
     font: 16px Georgia, "Times New Roman", Times, serif;
-    color: #888;
     text-shadow: 1px 1px 1px #FFF;
     border: 1px solid #E4E4E4;
 }
@@ -425,12 +424,13 @@ section.portfolio .swiper-button-next {
     padding: 0px 0px 10px 40px;
     border-bottom: 1px solid #E4E4E4;
     margin: -10px -15px 30px -10px;
-    color: #888;
+    font-family: kai;
 }
 
 .basic-grey label {
     display: block;
     margin: 0px;
+    font-family: kai;
 }
 
 .basic-grey label>span {
@@ -439,7 +439,7 @@ section.portfolio .swiper-button-next {
     text-align: right;
     padding-right: 10px;
     margin-top: 10px;
-    color: #888;
+    font-size: 18px;
 }
 
 .basic-grey input[type="text"],
@@ -483,7 +483,7 @@ section.portfolio .swiper-button-next {
 }
 
 .basic-grey .button:hover {
-    background: #CF7A7A
+    background: #E6686A;
 }
 
 #messageList {
