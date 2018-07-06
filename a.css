@@ -125,6 +125,9 @@ ol {
     }
 }
 
+
+/* 作品、博客下拉列表(弃用)*/
+
 .topNavBar .submenu {
     display: none;
     position: absolute;
@@ -154,6 +157,9 @@ ol {
     padding: 5px 10px;
 }
 
+
+/*作品、博客下拉列表(弃用)*/
+
 .topNavBar .logo {
     font-size: 24px;
     font-family: "Arial Black";
@@ -167,7 +173,7 @@ ol {
 }
 
 .topNavBar .logo .card {
-    margin-left: 8px;
+    margin-left: -2px;
     color: #9A9DA2;
 }
 
@@ -230,7 +236,7 @@ ol {
 }
 
 .userCard .pictureAndText {
-    padding: 50px;
+    padding: 50px 50px 30px 50px;
 }
 
 .userCard dl dt,
@@ -487,7 +493,7 @@ section.portfolio .swiper-button-next {
 }
 
 #messageList {
-    padding: 16px 12px 0px 14px;
+    padding: 0px 12px 0px 14px;
     background: #F7F7F7;
     max-width: 500px;
     margin: 0 auto;

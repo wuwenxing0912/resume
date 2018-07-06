@@ -43,12 +43,19 @@
             let aTags = this.view.querySelectorAll('nav.menu>ul>li>a')
             for (let i = 0; i < aTags.length; i++) {
                 aTags[i].onclick = (x) => {
-                    x.preventDefault(); //阻止浏览器默认行为
-                    let a = x.currentTarget;
-                    let href = a.getAttribute('href'); //href代码中设定的
-                    //console.log(a.href); //href浏览器处理过的
-                    let element = document.querySelector(href);
-                    this.scrollToElement(element)
+                    if (x.currentTarget.className === 'blog') {
+
+                    } else if (x.currentTarget.className === 'github') {
+
+                    } else {
+                        x.preventDefault(); //阻止浏览器默认行为
+                        let a = x.currentTarget;
+                        let href = a.getAttribute('href'); //href代码中设定的
+                        //console.log(a.href); //href浏览器处理过的
+                        let element = document.querySelector(href);
+                        this.scrollToElement(element)
+                    }
+
                 }
             }
         }
