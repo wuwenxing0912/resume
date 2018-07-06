@@ -332,6 +332,15 @@ body>main .downloadResume:hover {
     line-height: 1.8;
 }
 
+section.skills>.container-wrapper {
+    height: 600px;
+    margin: 0;
+}
+
+section.skills>.container-wrapper>#container {
+    height: 100%;
+}
+
 section.skills,
 section.portfolio {
     max-width: 940px;
