@@ -517,7 +517,7 @@ section.portfolio .swiper-button-next {
 
 .basic-grey .button:hover {
     /* background: #E6686A; */
-    background: #007ACC
+    background: #007ACC;
 }
 
 #messageList {
@@ -533,5 +533,23 @@ section.portfolio .swiper-button-next {
 #messageList>li {
     padding: 16px;
     border-bottom: 1px solid #DDD;
+}
+
+#messageList>li>.touristInfo>.name {
+    color: #007ACC;
+}
+
+#messageList>li>.touristInfo>.name::after {
+    content: ':';
+    color: black;
+}
+
+#messageList>li>.touristInfo>.text {
     white-space: normal;
+    word-wrap: break-word;
+}
+
+#messageList>li>.time {
+    padding-top: 20px;
+    right: 0;
 }
