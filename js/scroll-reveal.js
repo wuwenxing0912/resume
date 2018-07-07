@@ -4,7 +4,7 @@
         //origin: 'right', // 动画开始的方向
         duration: 2000, // 动画持续时间
         delay: 0, // 延迟
-        rotate: { x: 360, y: 360, z: 360 }, // 过度到0的初始角度
+        rotate: { x: 0, y: 0, z: 0 }, // 过度到0的初始角度
         opacity: 0, // 初始透明度  (0.2到1的效果)
         scale: 1, //缩放
         easing: 'ease-in-out', //动画效果// 缓动'ease', 'ease-in-out'，'linear',easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
@@ -30,7 +30,7 @@
     window.sr = ScrollReveal();
 
     sr.reveal('.userCard', config);
-    sr.reveal('.skills', { rotate: { x: 0, y: 0, z: 0 } }, config);
-    sr.reveal('.portfolio', { rotate: { x: 0, y: 0, z: 0 } }, config);
-    sr.reveal('#formAndMessageList', { rotate: { x: 0, y: 0, z: 0 } }, config);
+    sr.reveal('.skills', config);
+    sr.reveal('.portfolio', config);
+    sr.reveal('#formAndMessageList', config);
 }.call()
