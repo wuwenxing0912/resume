@@ -1,8 +1,8 @@
 ! function() {
     let specialTags = document.querySelectorAll('[data-x]')
-    for (let i = 0; i < specialTags.length; i++) {
-        specialTags[i].classList.add('offset')
-    }
+        // for (let i = 0; i < specialTags.length; i++) {
+        //     specialTags[i].classList.add('offset')
+        // }
 
     findClosestAndRemoveOffset()
     window.addEventListener('scroll', function(x) {
@@ -17,7 +17,7 @@
                 minIndex = i
             }
         }
-        specialTags[minIndex].classList.remove('offset')
+        //specialTags[minIndex].classList.remove('offset')
         let id = specialTags[minIndex].id
         let a = document.querySelector('a[href="#' + id + '"]')
         let li = a.parentNode

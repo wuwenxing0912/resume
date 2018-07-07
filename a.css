@@ -39,14 +39,15 @@ ol {
     clear: both;
 }
 
-[data-x].offset {
+
+/* [data-x].offset {
     transform: translateY(100px);
 }
 
 [data-x] {
     transform: translateY(0);
     transition: all 0.5s;
-}
+} */
 
 .topNavBar {
     padding-top: 20px;
