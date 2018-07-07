@@ -5,6 +5,11 @@
         swiper: null,
         swiperOptions: {
             loop: true,
+            autoplay: { delay: 5000 },
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
